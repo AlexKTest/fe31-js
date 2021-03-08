@@ -1,6 +1,6 @@
 # fe31-js
 
-# How to use script:
+# How to use script (please ensure, that node is installed on your PC):
 ## 1. Copy `launch.json` file to the `.vscode` folder
 ## 2. Open js file with code you would like to run
 ## 3. Proceed to the `Run` -> `Start Debugging` menu
