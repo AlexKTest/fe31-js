@@ -15,7 +15,8 @@ const runFile = () => {
   exec(`node ${filePath}`, (_err, stdout, stderr) => {
     if (stdout || stderr) {
       console.clear()
-      console.log(stdout || stderr)
+      console.log(stdout)
+      console.log(stderr)
     } else {
       return
     }
